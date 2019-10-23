@@ -1,3 +1,5 @@
+
+
 .top-bar {
   display: inline-block;
   margin: 20px;
@@ -76,8 +78,30 @@
 #bottom-nav {
   position: absolute;
   bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2
+}
+
+#bottom-nav a {
+  color: grey;
+  text-decoration: none;
+  padding: 10px;
+}
+
+#bottom-nav a:hover {
+  text-decoration: underline;
 }
 
 .bottom-bar {
   display: inline-block;
+  margin: 20px;
+}
+
+
+#bottom-left-nav-items {
+  float: left;
+}
+
+#bottom-right-nav-items {
+  float: right;
 }

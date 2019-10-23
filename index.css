@@ -1,3 +1,33 @@
+.top-bar {
+  display: inline-block;
+  margin: 20px;
+}
+
+#top-nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+#top-nav a {
+    text-decoration: none;
+    color: grey;
+    padding: 10px
+}
+
+#top-nav a:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+#top-left-nav-items {
+  float: left;
+}
+
+#top-right-nav-items {
+  float: right;
+}
+
 #button-section {
 
 }
@@ -30,6 +60,7 @@
   height: 92px;
   width: 272px;
   margin-bottom: 20px;
+  margin-top: 300px;
 }
 
 #search-form {
@@ -40,4 +71,13 @@
   display: inline;
   width: 300px;
 
+}
+
+#bottom-nav {
+  position: absolute;
+  bottom: 0;
+}
+
+.bottom-bar {
+  display: inline-block;
 }
